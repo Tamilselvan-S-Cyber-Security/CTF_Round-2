@@ -1,0 +1,177 @@
+2023-01-23T18:38:26.868Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2023-01-23T18:38:27.727Z - info: [ui] [AppStore] loading 1 repositories from store
+2023-01-23T18:38:27.728Z - info: [ui] [AppStore] found account: TDLAXD (Dlta)
+2023-01-23T18:38:28.497Z - info: [ui] Subscribed 'TDLAXD' to Alive channel
+2023-01-23T18:38:28.524Z - info: [ui] launching: 3.1.2 (Windows 10.0.19044)
+2023-01-23T18:38:28.525Z - info: [ui] execPath: 'C:\Users\User\AppData\Local\GitHubDesktop\app-3.1.2\GitHubDesktop.exe'
+2023-01-23T18:38:29.595Z - info: [ui] Stats reported.
+2023-01-23T18:38:29.661Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
+
+2023-01-23T18:39:33.073Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: DLATritonProject - TDLAXD (has token)
+2023-01-23T18:39:33.305Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --recurse-submodules --progress origin` exited with an unexpected code: 1.
+stderr:
+fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
+
+2023-01-23T18:39:43.949Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2023-01-23T18:39:45.201Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2023-01-23T18:39:57.236Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:39:57.375Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:39:58.685Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:39:58.811Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:00.165Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:00.282Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:01.072Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:01.192Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:01.665Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:01.780Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:06.123Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:06.248Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:06.642Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:06.763Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:07.137Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:07.259Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:07.690Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:07.811Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:08.235Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
+2023-01-23T18:40:08.354Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
+stderr:
+Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+
+(The error was parsed as 5: The host is down. Check your Internet connection and try again.)
+2023-01-23T18:40:23.428Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2023-01-23T18:40:23.951Z - info: [ui] [AppStore] loading 1 repositories from store
+2023-01-23T18:40:23.952Z - info: [ui] [AppStore] found account: TDLAXD (Dlta)
+2023-01-23T18:40:23.971Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping
+2023-01-23T18:40:24.143Z - info: [ui] launching: 3.1.4 (Windows 10.0.19044)
+2023-01-23T18:40:24.146Z - info: [ui] execPath: 'C:\Users\User\AppData\Local\GitHubDesktop\app-3.1.4\GitHubDesktop.exe'
+2023-01-23T18:40:24.608Z - info: [ui] Subscribed 'TDLAXD' to Alive channel
+2023-01-23T18:40:26.868Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: DLATritonProject - TDLAXD (has token)
+2023-01-23T18:40:27.137Z - error: [ui] `git -c credential.helper= -c rebase.backend=merge pull --ff --recurse-submodules --progress origin` exited with an unexpected code: 1.
+stderr:
+fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
+
+2023-01-23T18:40:42.117Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
+
+2023-01-23T18:40:46.899Z - info: [ui] [AppStore] adding repository at C:\Users\User\Documents\GitHub\world-template-test to store
+2023-01-23T18:41:16.007Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: DLATritonProject - TDLAXD (has token)
+2023-01-23T18:41:16.170Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
+
+2023-01-23T18:44:44.929Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 208.4s paused, total 209.1s
+2023-01-23T18:44:56.816Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T18:45:01.937Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: world-template-test - TDLAXD (has token)
+2023-01-23T18:45:02.073Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T18:45:55.685Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: world-template-test - TDLAXD (has token)
+2023-01-23T18:45:55.812Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T18:45:59.771Z - info: [main] Using toast activator CLSID {27D44D0C-A542-5B90-BCDB-AC3126048BA2}
+2023-01-23T18:46:00.276Z - info: [ui] [AppStore] loading 2 repositories from store
+2023-01-23T18:46:00.277Z - info: [ui] [AppStore] found account: TDLAXD (Dlta)
+2023-01-23T18:46:00.299Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2023-01-23T18:46:00.879Z - info: [ui] launching: 3.1.4 (Windows 10.0.19044)
+2023-01-23T18:46:00.880Z - info: [ui] execPath: 'C:\Users\User\AppData\Local\GitHubDesktop\app-3.1.4\GitHubDesktop.exe'
+2023-01-23T18:46:00.941Z - info: [ui] Subscribed 'TDLAXD' to Alive channel
+2023-01-23T18:46:29.423Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T18:48:04.909Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: DLATritonProject - TDLAXD (has token)
+2023-01-23T18:48:05.075Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
+
+2023-01-23T18:51:33.839Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 1.6s of which 208.6s paused, total 210.2s
+2023-01-23T18:51:59.444Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T18:57:29.506Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T19:03:00.435Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T19:08:30.427Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T19:14:00.493Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T19:19:30.407Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
+2023-01-23T19:20:07.431Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: DLATritonProject - TDLAXD (has token)
+2023-01-23T19:20:07.616Z - error: [ui] `git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
+
+2023-01-23T19:20:07.795Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.9s of which 0.0s paused, total 0.9s
+2023-01-23T19:20:08.222Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: world-template-test - TDLAXD (has token)
+2023-01-23T19:20:08.321Z - error: [ui] `git -c credential.helper= push origin main --set-upstream --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/TDLAXD/world-template-test.git/': Could not resolve host: github.com
+
