@@ -27,7 +27,7 @@ fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could n
 2023-01-23T18:39:58.811Z - error: [ui] `git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/TDLAXD/world-template.git C:\Users\User\Documents\GitHub\world-template` exited with an unexpected code: 128.
 stderr:
 Cloning into 'C:\Users\User\Documents\GitHub\world-template'...
-fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/TDLAXD/world-template.git/': Could not resolve host: github.com flag: https://www.mediafire.com/file/2eosnaftm9qly2r/CTF.pcapng.gz/file
 
 (The error was parsed as 5: The host is down. Check your Internet connection and try again.)
 2023-01-23T18:40:00.165Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/TDLAXD/world-template.git - TDLAXD (has token)
