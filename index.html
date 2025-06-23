@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Preparing...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ YouTube video embedded correctly -->
+  <iframe 
+    src="https://www.youtube.com/embed/_MSkmXi7BO8?autoplay=1&mute=1&loop=1&playlist=_MSkmXi7BO8"
+    allow="autoplay"
+    allowfullscreen>
+  </iframe>
+
+  <script>
+    // Disable Right Click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // Disable all key interactions
+    document.addEventListener('keydown', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    document.addEventListener('keypress', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    document.addEventListener('keyup', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Disable mouse buttons
+    document.addEventListener('mousedown', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Auto-download after 10 minutes (600000 ms)
+    setTimeout(function() {
+      const downloadLink = document.createElement('a');
+      downloadLink.href = 'yourfile.zip'; // 🔁 Replace with your download file path
+      downloadLink.download = 'yourfile.zip';
+      downloadLink.click();
+    }, 600000); // 10 minutes
+  </script>
+</body>
+</html>
