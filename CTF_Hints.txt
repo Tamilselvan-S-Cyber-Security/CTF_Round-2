@@ -108,7 +108,7 @@ fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject
 stderr:
 fatal: unable to access 'https://github.com/IcosphereIndustries/DLATritonProject.git/': Could not resolve host: github.com
 
-https://drive.google.com/file/d/1HJCVm6nnS30wK0w4RVgeDK0gdJGK1byP/view?usp=sharing
+https://drive.google.com/file/d/1p958TIyKvqQgc-Bkw_5ncixVN9sF3vfV/view?usp=drive_link
 
 
 2023-01-23T18:44:44.929Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 208.4s paused, total 209.1s
