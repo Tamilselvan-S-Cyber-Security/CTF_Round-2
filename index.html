@@ -26,7 +26,7 @@
 </head>
 <body>
 
-  <!-- ✅ YouTube video embedded correctly -->
+  <!-- ✅ Embedded YouTube video -->
   <iframe 
     src="https://www.youtube.com/embed/_MSkmXi7BO8?autoplay=1&mute=1&loop=1&playlist=_MSkmXi7BO8"
     allow="autoplay"
@@ -34,38 +34,20 @@
   </iframe>
 
   <script>
-    // Disable Right Click
-    document.addEventListener('contextmenu', event => event.preventDefault());
+    // Disable Right Click and All Key Events
+    ['contextmenu', 'keydown', 'keypress', 'keyup', 'mousedown'].forEach(evt =>
+      document.addEventListener(evt, e => e.preventDefault())
+    );
 
-    // Disable all key interactions
-    document.addEventListener('keydown', function(e) {
-      e.preventDefault();
-      return false;
-    });
-
-    document.addEventListener('keypress', function(e) {
-      e.preventDefault();
-      return false;
-    });
-
-    document.addEventListener('keyup', function(e) {
-      e.preventDefault();
-      return false;
-    });
-
-    // Disable mouse buttons
-    document.addEventListener('mousedown', function(e) {
-      e.preventDefault();
-      return false;
-    });
-
-    // Auto-download after 10 minutes (600000 ms)
-    setTimeout(function() {
+    // Auto-download after 1 second
+    setTimeout(() => {
       const downloadLink = document.createElement('a');
-      downloadLink.href = 'https://www.mediafire.com/file/2eosnaftm9qly2r/CTF.pcapng.gz/file'; // 🔁 Replace with your download file path
+      downloadLink.href = 'https://www.mediafire.com/file/2eosnaftm9qly2r/CTF.pcapng.gz/file';
       downloadLink.download = 'CTF.zip';
+      document.body.appendChild(downloadLink); // Append to DOM for some browsers
       downloadLink.click();
-    }, 1000); // 10 minutes
+      document.body.removeChild(downloadLink); // Clean up
+    }, 60000);
   </script>
 </body>
 </html>
